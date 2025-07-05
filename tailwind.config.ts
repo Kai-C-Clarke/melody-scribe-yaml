@@ -61,7 +61,15 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				studio: {
+					gradient1: 'hsl(var(--studio-gradient-1))',
+					gradient2: 'hsl(var(--studio-gradient-2))',
+					purple: 'hsl(var(--studio-purple))',
+					blue: 'hsl(var(--cyber-blue))'
+				},
+				waveform: 'hsl(var(--waveform))',
+				midi: 'hsl(var(--midi-green))'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
